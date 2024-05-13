@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Forms</title>
+</head>
+
+<body>
+    <div class="bg-blue-200 min-h-screen py-32 px-10">
+        <div class="bg-white p-10 rounded-lg shadow md:w-3/4 lg:w-1/2 mx-auto">
+            <form action="">
+                <div class="mb-4">
+                    <label for="name" class="block mb-2 font-bold text-gray-600">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Bottles" class="border border-gray-300 p-3 w-full shadow rounded">
+                </div>
+
+                <div class="mb-10">
+                    <label for="twitter" class="block mb-2 font-bold text-gray-600">Twitter</label>
+                    <input type="text" id="twitter" name="twitter" placeholder="@Bottles" class="border border-red-300 p-3 w-full shadow rounded">
+
+                    <p class="text-sm text-red-400 mt-2">Twitter username is required.</p>
+                </div>
+
+                <button class="w-full bg-blue-500 text-white p-4 font-bold shadow-lg rounded">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>

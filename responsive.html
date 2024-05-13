@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+</head>
+<body>
+
+<div class="bg-blue-200 min-h-screen p-4 lg:p-20">
+
+    <!-- colors as responsive -->
+    <h2 class="text-6xl text-black md:text-red-600 lg:text-yellow-600 xl:text-white">Mobile First</h2>
+    
+    <h2 class="text-3xl md:text-4xl lg:text-6xl">Different Sizes Per Devices</h2>
+
+    <!-- stacking vs side by side -->
+    <div class="md:flex md:space-x-8">
+        <div class="md:w-1/2 p-10 mt-20 bg-white">on mobile we stack</div>
+        <div class="md:w-1/2 p-10 mt-20 bg-white">on desktop, we are side by side</div>
+    </div>
+</div>
+
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
